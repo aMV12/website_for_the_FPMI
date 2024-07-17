@@ -244,12 +244,16 @@ nav {
     }
 
     .menu-list a {
-        font-size: 0.7em; /* Уменьшаем размер текста в меню */
+        font-size: 0.74em; /* Уменьшаем размер текста в меню */
     }
 
     .social-icons a {
         width: 25px;
         height: 25px;
+    }
+
+    .menu-list {
+        gap: 14px;
     }
 }
 
@@ -263,12 +267,16 @@ nav {
     }
 
     .menu-list a {
-        font-size: 0.6em; /* Еще уменьшаем размер текста в меню */
+        font-size: 0.64em; /* Еще уменьшаем размер текста в меню */
     }
 
     .social-icons a {
         width: 20px;
         height: 20px;
+    }
+
+    .menu-list {
+        gap: 12px;
     }
 }
 
@@ -302,18 +310,22 @@ nav {
     }
 
     .menu-list a {
-        font-size: 0.5em; /* Уменьшаем размер текста в меню */
+        font-size: 0.54em; /* Уменьшаем размер текста в меню */
     }
 
     .social-icons a {
         width: 18px;
         height: 18px;
     }
+
+    .menu-list {
+        gap: 10px;
+    }
 }
 
 @media screen and (max-width: 576px) {
     .menu-list {
-        gap: 10px;
+        gap: 0px;
         padding: 0 10px;
     }
 
@@ -323,7 +335,7 @@ nav {
     }
 
     .menu-list a {
-        font-size: 0.4em; /* Уменьшаем размер текста в меню */
+        font-size: 0.44em; /* Уменьшаем размер текста в меню */
     }
 
     .social-icons a {
@@ -354,7 +366,7 @@ nav {
 
 @media screen and (max-width: 400px) {
     .menu-list {
-        gap: 5px;
+        gap: 0px;
         padding: 0 5px;
     }
 
@@ -365,7 +377,7 @@ nav {
     }
 
     .menu-list a {
-        font-size: 0.3em; /* Еще уменьшаем размер текста в меню */
+        font-size: 0.34em; /* Еще уменьшаем размер текста в меню */
     }
 
     .social-icons a {
@@ -391,5 +403,28 @@ nav {
 
     .story-block h3 {
         font-size: 1em;
+    }
+}
+
+
+@media screen and (max-width: 300px) {
+    .menu-list {
+        gap: 0px;
+        padding: 0 5px;
+    }
+
+    .social-icons {
+        gap: 5px;
+        margin-left: 5px;
+        margin-right: 10px; /* Добавляем отступ от правого края */
+    }
+
+    .menu-list a {
+        font-size: 0.14em; /* Еще уменьшаем размер текста в меню */
+    }
+
+    .social-icons a {
+        width: 14px;
+        height: 14px;
     }
 }
